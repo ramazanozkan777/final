@@ -20,10 +20,10 @@ export default async function RootLayout({ children }) {
   return (
     <html lang={locale}>
       <head>
-        <link
+        {/* <link
           href="https://fonts.googleapis.com/css2?family=Satoshi:wght@400;700&display=swap"
           rel="stylesheet"
-        />
+        /> */}
       </head>
       <body>
         <NextIntlClientProvider messages={messages}>
